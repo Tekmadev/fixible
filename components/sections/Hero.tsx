@@ -90,14 +90,14 @@ export default function Hero() {
         </motion.div>
 
         {/* Headline line 1 */}
-        <motion.p
+        <motion.h1
           className="text-display-doto font-bold text-primary-text mb-3 speakable"
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
         >
           Your Place or Ours.
-        </motion.p>
+        </motion.h1>
 
         {/* Headline line 2 — LayoutTextFlip */}
         <motion.div
