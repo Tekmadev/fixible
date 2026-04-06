@@ -6,7 +6,7 @@
 export const business = {
   name: 'Fixible',
   legalName: 'Tekmadev Innovation Inc.',
-  tagline: 'We Come to You. We Fix Your Phone.',
+  tagline: 'Broken Phone? We Will Fix It.',
   description:
     "Hamilton's premier mobile repair service. We come to your home, office, or anywhere. Fast, clean, and guaranteed.",
   url: 'https://fixible.ca',
