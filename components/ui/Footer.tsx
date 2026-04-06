@@ -173,10 +173,9 @@ export default function Footer() {
                 Hours
               </p>
               <p className="text-secondary-text text-sm">
-                Mon – Fri: 9 AM – 7 PM
+                Mon – Thu &amp; Sat – Sun: 10 AM – 9 PM
               </p>
-              <p className="text-secondary-text text-sm">Sat: 10 AM – 5 PM</p>
-              <p className="text-secondary-text/60 text-sm">Sun: Closed</p>
+              <p className="text-secondary-text text-sm">Fri: 10 AM – 1 PM, 3 PM – 9 PM</p>
             </div>
           </div>
         </div>
@@ -186,7 +185,7 @@ export default function Footer() {
       <div className="border-t border-border-light">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-secondary-text/60 text-xs text-center sm:text-left">
-            © {currentYear} {business.legalName}. All rights reserved.
+            © {currentYear} {business.legalName} All rights reserved.
             Hamilton, Ontario, Canada.
           </p>
           <div className="flex items-center gap-4">

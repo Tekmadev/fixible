@@ -49,13 +49,13 @@ export const business = {
   },
 
   hours: {
-    monday: '9:00 AM – 7:00 PM',
-    tuesday: '9:00 AM – 7:00 PM',
-    wednesday: '9:00 AM – 7:00 PM',
-    thursday: '9:00 AM – 7:00 PM',
-    friday: '9:00 AM – 7:00 PM',
-    saturday: '10:00 AM – 5:00 PM',
-    sunday: 'Closed',
+    monday: '10:00 AM – 9:00 PM',
+    tuesday: '10:00 AM – 9:00 PM',
+    wednesday: '10:00 AM – 9:00 PM',
+    thursday: '10:00 AM – 9:00 PM',
+    friday: '10:00 AM – 1:00 PM, 3:00 PM – 9:00 PM',
+    saturday: '10:00 AM – 9:00 PM',
+    sunday: '10:00 AM – 9:00 PM',
   },
 
   areaServed: [
