@@ -8,6 +8,7 @@ import {
   Shield,
   Clock,
   Star,
+  Award,
   Smartphone,
   Tablet,
   Laptop,
@@ -21,6 +22,7 @@ const trustBadges = [
   { icon: Shield, label: '90-Day Warranty' },
   { icon: Clock, label: 'Same-Day Service' },
   { icon: Star,  label: 'Mobile & In-Shop' },
+  { icon: Award, label: '11+ Years Experience' },
 ]
 
 const devices = [
