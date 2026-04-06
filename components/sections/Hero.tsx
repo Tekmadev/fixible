@@ -113,7 +113,7 @@ export default function Hero() {
               text=""
               words={devices.map(d => d.label)}
               duration={DURATION}
-              wordClassName="text-display-doto font-doto font-bold py-2 px-5 rounded-xl"
+              wordClassName="text-display-doto font-doto font-bold py-2 px-5 rounded-full"
             />
           </span>
         </motion.div>

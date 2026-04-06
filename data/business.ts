@@ -5,7 +5,7 @@
 
 export const business = {
   name: 'Fixible',
-  legalName: 'Fixible Mobile Repair',
+  legalName: 'Tekmadev Innovation Inc.',
   tagline: 'We Come to You. We Fix Your Phone.',
   description:
     "Hamilton's premier mobile repair service. We come to your home, office, or anywhere. Fast, clean, and guaranteed.",
@@ -71,6 +71,8 @@ export const business = {
 
   priceRange: '$$',
   foundingYear: 2024,
+
+  gtmId: 'GTM-596C8V27',
 } as const
 
 // ─────────────────────────────────────────────

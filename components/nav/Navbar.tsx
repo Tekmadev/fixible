@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Menu, X, Phone } from 'lucide-react'
+import { Menu, X, Phone, Instagram } from 'lucide-react'
 import { business } from '@/data/business'
 import CalPopupButton from '@/components/ui/CalPopupButton'
 
@@ -73,6 +73,15 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3">
+            <a
+              href={business.social.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Fixible on Instagram"
+              className="text-secondary-text hover:text-primary-text transition-colors"
+            >
+              <Instagram size={17} />
+            </a>
             <a
               href={`tel:${business.phone}`}
               className="flex items-center gap-1.5 text-secondary-text hover:text-primary-text text-sm transition-colors"

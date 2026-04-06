@@ -17,6 +17,8 @@ const companyLinks = [
   { label: 'Guarantee', href: '#guarantee' },
   { label: 'Book a Repair', href: '#booking' },
   { label: 'FAQ', href: '#faq' },
+  { label: 'Privacy Policy', href: '/privacy' },
+  { label: 'Terms of Service', href: '/terms' },
 ]
 
 const currentYear = new Date().getFullYear()
@@ -187,9 +189,15 @@ export default function Footer() {
             © {currentYear} {business.legalName}. All rights reserved.
             Hamilton, Ontario, Canada.
           </p>
-          <p className="text-secondary-text/40 text-xs">
-            Built with precision. Like every repair.
-          </p>
+          <div className="flex items-center gap-4">
+            <Link href="/privacy" className="text-secondary-text/50 hover:text-secondary-text text-xs transition-colors">
+              Privacy Policy
+            </Link>
+            <span className="text-border text-xs">·</span>
+            <Link href="/terms" className="text-secondary-text/50 hover:text-secondary-text text-xs transition-colors">
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

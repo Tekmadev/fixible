@@ -26,7 +26,7 @@ function CalInlineEmbed() {
     <Cal
       namespace={calNamespace}
       calLink={calLink}
-      style={{ width: '100%', height: '100%', overflow: 'scroll' }}
+      style={{ width: '100%', height: 'auto', overflow: 'hidden' }}
       config={{ layout: 'month_view', useSlotsViewOnSmallScreen: 'true' }}
     />
   )
@@ -56,7 +56,7 @@ export default function Booking() {
         </div>
 
         {/* Cal.com inline embed */}
-        <div className="glass rounded-3xl overflow-hidden" style={{ minHeight: 600 }}>
+        <div className="glass rounded-3xl overflow-hidden">
           <CalInlineEmbed />
         </div>
 
