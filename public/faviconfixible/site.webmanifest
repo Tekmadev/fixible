@@ -1,0 +1,11 @@
+{
+  "name": "Fixible — Mobile Phone Repair Hamilton",
+  "short_name": "Fixible",
+  "icons": [
+    { "src": "/faviconfixible/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/faviconfixible/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#050505",
+  "background_color": "#050505",
+  "display": "standalone"
+}

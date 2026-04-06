@@ -53,6 +53,20 @@ export const metadata: Metadata = {
     'fixible.ca',
   ],
 
+  icons: {
+    icon: [
+      { url: '/faviconfixible/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/faviconfixible/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/faviconfixible/favicon.ico' },
+    ],
+    apple: [
+      { url: '/faviconfixible/apple-touch-icon.png' },
+    ],
+    other: [
+      { rel: 'manifest', url: '/faviconfixible/site.webmanifest' },
+    ],
+  },
+
   authors: [{ name: 'Fixible', url: business.url }],
   creator: 'Fixible',
   publisher: 'Fixible',
