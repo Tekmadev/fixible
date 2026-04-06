@@ -60,7 +60,7 @@ export default function CleanlinessGuarantee() {
 
             <h2
               id="guarantee-heading"
-              className="text-display-md font-bold font-doto text-primary-text mb-6 speakable"
+              className="text-display-md font-bold text-primary-text mb-6 speakable"
             >
               We Leave{' '}
               <span className="accent-gradient-text">No Trace.</span>

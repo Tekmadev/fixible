@@ -89,7 +89,7 @@ export default function Hero() {
 
         {/* Headline line 1 */}
         <motion.p
-          className="text-display-doto font-bold font-doto text-primary-text mb-3 speakable"
+          className="text-display-doto font-bold text-primary-text mb-3 speakable"
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
@@ -104,16 +104,16 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.18 }}
         >
-          <span className="text-display-doto font-bold font-doto accent-gradient-text speakable">
+          <span className="text-display-doto font-bold accent-gradient-text speakable">
             We Fix Your
           </span>
           {/* The flipping word pill — sized to match the heading */}
-          <span className="text-display-doto font-doto font-bold leading-none max-w-[90vw] overflow-hidden inline-block">
+          <span className="text-display-doto font-bold leading-none max-w-[90vw] overflow-hidden inline-block">
             <LayoutTextFlip
               text=""
               words={devices.map(d => d.label)}
               duration={DURATION}
-              wordClassName="text-display-doto font-doto font-bold py-2 px-5 rounded-full"
+              wordClassName="text-display-doto font-bold py-2 px-5 rounded-full"
             />
           </span>
         </motion.div>

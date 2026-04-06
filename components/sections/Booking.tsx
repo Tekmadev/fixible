@@ -45,7 +45,7 @@ export default function Booking() {
           <p className="pill mx-auto mb-5">Book a Repair</p>
           <h2
             id="booking-heading"
-            className="text-display-md font-bold font-doto text-primary-text mb-5 speakable"
+            className="text-display-md font-bold text-primary-text mb-5 speakable"
           >
             Ready When You Are.
           </h2>

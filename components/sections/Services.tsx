@@ -48,7 +48,7 @@ export default function Services() {
 
           <h2
             id="services-heading"
-            className="text-display-md font-bold font-doto text-primary-text mb-5 reveal reveal-delay-1 speakable"
+            className="text-display-md font-bold text-primary-text mb-5 reveal reveal-delay-1 speakable"
           >
             All Repairs. All Devices.
           </h2>

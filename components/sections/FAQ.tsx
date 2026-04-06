@@ -71,7 +71,7 @@ export default function FAQ() {
           <p className="pill mx-auto mb-5 reveal">FAQ</p>
           <h2
             id="faq-heading"
-            className="text-display-md font-bold font-doto text-primary-text mb-5 reveal reveal-delay-1 speakable"
+            className="text-display-md font-bold text-primary-text mb-5 reveal reveal-delay-1 speakable"
           >
             Everything You Need{' '}
             <span className="text-secondary-text font-normal">to Know.</span>

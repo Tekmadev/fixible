@@ -47,7 +47,7 @@ export default function HowItWorks() {
 
           <h2
             id="hiw-heading"
-            className="text-display-md font-bold font-doto text-primary-text mb-5 speakable"
+            className="text-display-md font-bold text-primary-text mb-5 speakable"
           >
             Broken to Fixed.{' '}
             <span className="text-secondary-text font-normal">
