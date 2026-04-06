@@ -4,7 +4,10 @@
       "Bash(npm run:*)",
       "Bash(git rm:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m 'feat: launch Fixible landing page:*)"
+      "Bash(git commit -m 'feat: launch Fixible landing page:*)",
+      "Bash(identify /Users/shajeed/Coding/Projects/NextJS/fixible/public/og-image.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/shajeed/Coding/Projects/NextJS/fixible/public/og-image.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/shajeed/Coding/Projects/NextJS/fixible/assets/fixiableshow.png)"
     ]
   }
 }

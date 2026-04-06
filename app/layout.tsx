@@ -67,9 +67,9 @@ export const metadata: Metadata = {
       "Hamilton's premier on-site mobile repair service. Cracked screens, batteries, consoles, and more, repaired at your door.",
     images: [
       {
-        url: '/og-image.jpg', // TODO — add a 1200×630 OG image to /public
-        width: 1200,
-        height: 630,
+        url: '/og-image.png',
+        width: 2071,
+        height: 1285,
         alt: 'Fixible — Mobile Phone Repair in Hamilton',
       },
     ],
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     title: 'Fixible — Mobile Phone Repair in Hamilton | We Come to You',
     description:
       "Hamilton's premier on-site mobile repair service. Cracked screens, batteries, consoles, and more, repaired at your door.",
-    images: ['/og-image.jpg'],
+    images: ['/og-image.png'],
   },
 
   robots: {
