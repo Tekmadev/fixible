@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Inter, Doto } from 'next/font/google'
 import './globals.css'
 import { business } from '@/data/business'
+import { Analytics } from '@vercel/analytics/next'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -262,6 +263,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {children}
+        <Analytics />
       </body>
     </html>
   )
