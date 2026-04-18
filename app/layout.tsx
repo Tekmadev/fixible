@@ -1,21 +1,15 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Doto } from 'next/font/google'
+import { Aldrich } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import './globals.css'
 import { business } from '@/data/business'
 
-const inter = Inter({
+const aldrich = Aldrich({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-aldrich',
   display: 'swap',
-})
-
-const doto = Doto({
-  subsets: ['latin'],
-  variable: '--font-doto',
-  display: 'swap',
-  weight: ['400', '700', '900'],
+  weight: '400',
 })
 
 // ─────────────────────────────────────────
@@ -241,7 +235,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en-CA" className={`${inter.variable} ${doto.variable}`}>
+    <html lang="en-CA" className={aldrich.variable}>
       <head>
         {/* Google Tag Manager — as high as possible in <head> */}
         <script

@@ -21,8 +21,8 @@ const config: Config = {
         'border-light': 'rgba(255,255,255,0.06)',
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        doto: ['var(--font-doto)', 'monospace'],
+        sans: ['var(--font-aldrich)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        doto: ['var(--font-aldrich)', 'sans-serif'],
       },
       fontSize: {
         'display-xl':   ['clamp(3rem, 8vw, 7rem)',     { lineHeight: '1.04', letterSpacing: '-0.04em' }],
