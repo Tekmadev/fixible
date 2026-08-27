@@ -10,8 +10,8 @@ export const business = {
   description:
     "Hamilton's premier mobile repair service. We come to your home, office, or anywhere. Fast, clean, and guaranteed.",
   url: 'https://fixible.ca',
-  phone: '+13655440044',
-  phoneDisplay: '+1 (365) 544-0044',
+  phone: '+14387285533',
+  phoneDisplay: '+1 (438) 728-5533',
   email: 'fixible.ca@gmail.com', // Temporary — replace with hello@fixible.ca once domain email is set up
 
   address: {
@@ -192,7 +192,7 @@ export const faqs = [
   {
     question: 'How do I book a repair with Fixible?',
     answer:
-      "Use the Book a Repair button on this page to pick a time that suits you through our online booking system. You can also call us at +1 (365) 544-0044 or email fixible.ca@gmail.com and we'll get you scheduled fast.",
+      "Use the Book a Repair button on this page to pick a time that suits you through our online booking system. You can also call us at +1 (438) 728-5533 or email fixible.ca@gmail.com and we'll get you scheduled fast.",
   },
   {
     question: 'What payment methods do you accept?',
