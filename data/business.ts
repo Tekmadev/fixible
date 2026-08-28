@@ -8,7 +8,7 @@ export const business = {
   legalName: 'Tekmadev Innovation Inc.',
   tagline: 'Broken Phone? We Will Fix It.',
   description:
-    "Hamilton's premier mobile repair service. We come to your home, office, or anywhere. Fast, clean, and guaranteed.",
+    "Hamilton's premier device repair shop. Phones, tablets, consoles and PCs, repaired fast. Clean work, fair prices, guaranteed.",
   url: 'https://fixible.ca',
   phone: '+14387285533',
   phoneDisplay: '+1 (438) 728-5533',
@@ -86,7 +86,7 @@ export const services = [
     icon: 'Smartphone',
     shortDesc: 'Cracked display fixed fast.',
     description:
-      'Shattered or unresponsive screen? We swap it in under an hour using OEM-quality parts, tested before we leave.',
+      'Shattered or unresponsive screen? We swap it in under an hour using OEM-quality parts, tested before you get it back.',
     keywords: ['cracked screen', 'broken display', 'screen repair', 'iPhone screen', 'Samsung screen'],
   },
   {
@@ -122,7 +122,7 @@ export const services = [
     icon: 'Tablet',
     shortDesc: 'iPads, Galaxy Tabs & more.',
     description:
-      'iPad, Samsung Galaxy Tab, Lenovo, same on-site precision as phones, for any tablet you rely on.',
+      'iPad, Samsung Galaxy Tab, Lenovo, same precision as phones, for any tablet you rely on.',
     keywords: ['tablet repair', 'iPad repair', 'Samsung tablet', 'tablet screen'],
   },
   {
@@ -162,12 +162,12 @@ export const faqs = [
   {
     question: 'What areas of Hamilton does Fixible serve?',
     answer:
-      'We serve all of Hamilton and surrounding communities including Ancaster, Dundas, Stoney Creek, Waterdown, and Burlington. Our mobile technicians come directly to you, whether at home, office, coffee shop, or wherever is convenient.',
+      'We look after customers from across Hamilton and the surrounding communities, including Ancaster, Dundas, Stoney Creek, Waterdown, and Burlington. Book a time online, bring your device in, and we handle the rest.',
   },
   {
     question: 'How long does a phone screen repair take?',
     answer:
-      'Most screen replacements take 30 to 60 minutes on-site. We arrive with all parts ready, so there are no delays, no drop-off queues, and no waiting days for a repair.',
+      'Most screen replacements take 30 to 60 minutes. We keep common parts on hand, so for the majority of repairs you can wait while we work, with no waiting days to get your device back.',
   },
   {
     question: 'Do you repair all phone brands?',
@@ -177,12 +177,12 @@ export const faqs = [
   {
     question: 'Is there a warranty on repairs?',
     answer:
-      "All repairs come with a 90-day warranty covering both parts and workmanship. If something isn't right after we leave, we come back and fix it at no charge.",
+      "All repairs come with a 90-day warranty covering both parts and workmanship. If something isn't right afterwards, bring it back and we'll fix it at no charge.",
   },
   {
-    question: 'Can Fixible come to my home or office in Hamilton?',
+    question: 'Do I need to book an appointment?',
     answer:
-      'Absolutely, that is our core service. Book a time that works for you, and a certified technician will arrive at your door. No need to leave your home or sit in a waiting room.',
+      'Booking online is the fastest route. It takes under two minutes and guarantees your slot with the shortest wait. If you have not booked, call ahead and we will tell you the best time to come in.',
   },
   {
     question: 'Do you repair tablets and gaming consoles?',
@@ -202,7 +202,7 @@ export const faqs = [
   {
     question: 'Do you offer same-day repair?',
     answer:
-      'Yes, for most common repairs like screen, battery, and charging port, we offer same-day service. Book early in the day and a technician can often arrive within hours.',
+      'Yes, for most common repairs like screen, battery, and charging port, we offer same-day service. Book early in the day and your device is often ready within hours.',
   },
   {
     question: 'What is the OpenClaw AI Setup service?',

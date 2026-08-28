@@ -23,13 +23,13 @@ const guarantees = [
     icon: Package,
     title: 'Factory-Sealed Parts',
     description:
-      'We use only genuine-grade, factory-packaged components, opened on-site, in front of you.',
+      'We use only genuine-grade, factory-packaged components, opened fresh for your repair.',
   },
   {
     icon: Sparkles,
     title: 'Zero Residue',
     description:
-      'We leave your device and your space exactly as we found it. No adhesive marks, no mess.',
+      'Your device comes back exactly as it should look. No adhesive marks, no mess.',
   },
   {
     icon: BadgeCheck,
@@ -67,9 +67,9 @@ export default function CleanlinessGuarantee() {
             </h2>
 
             <p className="text-secondary-text text-lg leading-relaxed">
-              Every repair is performed with surgical precision. We show up
-              prepared, work clean, and leave your space and your device
-              in better condition than we found it.
+              Every repair is performed with surgical precision on a clean,
+              dedicated bench, and your device leaves in better condition
+              than it arrived.
             </p>
           </div>
 

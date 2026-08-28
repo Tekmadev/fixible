@@ -55,7 +55,7 @@ export default function Services() {
 
           <p className="text-secondary-text text-lg max-w-xl mx-auto reveal reveal-delay-2">
             From cracked screens to custom PC builds, one team, every fix,
-            at your door.
+            done right.
           </p>
         </div>
 

@@ -11,9 +11,9 @@ import { business, faqs } from '@/data/business'
 
 // Page-level metadata (augments layout.tsx defaults)
 export const metadata: Metadata = {
-  title: 'Fixible — Mobile Phone Repair in Hamilton, Ontario | We Come to You',
+  title: 'Fixible — Phone & Device Repair in Hamilton, Ontario',
   description:
-    "Fixible is Hamilton's premier on-site mobile repair service. We come to your door to fix cracked screens, batteries, charging ports, tablets, consoles, and more. Same-day service, 90-day warranty.",
+    "Fixible is Hamilton's premier device repair service. Cracked screens, batteries, charging ports, tablets, consoles, and more, fixed fast. Same-day service, 90-day warranty.",
   alternates: {
     canonical: business.url,
   },
@@ -38,7 +38,7 @@ const servicePageSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   '@id': `${business.url}/#service`,
-  name: 'Mobile Phone Repair',
+  name: 'Phone & Device Repair',
   provider: { '@id': `${business.url}/#business` },
   areaServed: {
     '@type': 'City',
@@ -46,7 +46,7 @@ const servicePageSchema = {
     sameAs: 'https://en.wikipedia.org/wiki/Hamilton,_Ontario',
   },
   description:
-    'On-site mobile phone, tablet, and console repair in Hamilton, Ontario. Technicians come to your home or office.',
+    'Mobile phone, tablet, and console repair in Hamilton, Ontario. Book online for same-day service with a 90-day warranty.',
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Device Repair Services',

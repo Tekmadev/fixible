@@ -1,4 +1,4 @@
-import { CalendarCheck, CarFront, ShieldCheck } from 'lucide-react'
+import { CalendarCheck, Store, ShieldCheck } from 'lucide-react'
 
 const steps = [
   {
@@ -11,18 +11,18 @@ const steps = [
   },
   {
     step: '02',
-    icon: CarFront,
-    title: 'We Arrive',
+    icon: Store,
+    title: 'Bring It In',
     description:
-      'A certified Fixible technician comes to your home, office, or any location in Hamilton.',
-    detail: 'We bring all tools and parts with us.',
+      'Drop your device off at your booked time and a certified Fixible technician takes it from there.',
+    detail: 'Common parts kept in stock.',
   },
   {
     step: '03',
     icon: ShieldCheck,
     title: 'Fixed & Tested',
     description:
-      'Your device is repaired and thoroughly tested before we leave. 90-day warranty included.',
+      'Your device is repaired and thoroughly tested before it goes back in your hands. 90-day warranty included.',
     detail: "You only pay if you're 100% satisfied.",
   },
 ]
@@ -56,8 +56,8 @@ export default function HowItWorks() {
           </h2>
 
           <p className="text-secondary-text text-lg max-w-lg mx-auto">
-            No drop-off queues. No waiting days. Your device repaired at
-            your door.
+            No guesswork. No waiting days. Most repairs finished the same
+            day you book.
           </p>
         </div>
 

@@ -43,7 +43,7 @@ export default function TermsPage() {
 
         <Section title="1. Services">
           <p>
-            {business.name} provides on-site and in-shop mobile device repair services in Hamilton, Ontario and surrounding areas, including but not limited to: screen replacement, battery replacement, charging port repair, camera and speaker repair, tablet repair, console repair, desktop builds, and related technical services.
+            {business.name} provides in-shop mobile device repair services in Hamilton, Ontario and surrounding areas, including but not limited to: screen replacement, battery replacement, charging port repair, camera and speaker repair, tablet repair, console repair, desktop builds, and related technical services.
           </p>
           <p>
             We reserve the right to decline any repair request at our discretion, including cases where the device is deemed beyond economic repair or poses a safety risk.

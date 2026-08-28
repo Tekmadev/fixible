@@ -21,7 +21,7 @@ import { business } from '@/data/business'
 const trustBadges = [
   { icon: Shield, label: '90-Day Warranty' },
   { icon: Clock, label: 'Same-Day Service' },
-  { icon: Star,  label: 'Mobile & In-Shop' },
+  { icon: Star,  label: 'OEM-Quality Parts' },
   { icon: Award, label: '11+ Years Experience' },
 ]
 
@@ -96,7 +96,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
         >
-          Your Place or Ours.
+          Same Day. Done Right.
         </motion.h1>
 
         {/* Headline line 2 — LayoutTextFlip */}
@@ -172,7 +172,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.32 }}
         >
-          Hamilton&apos;s most trusted device repair service, at your door or at our shop.
+          Hamilton&apos;s most trusted device repair service.
           Cracked screens, dead batteries, charging ports, consoles and more. Fast, affordable, guaranteed.
         </motion.p>
 

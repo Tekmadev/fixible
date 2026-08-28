@@ -50,8 +50,8 @@ export default function Booking() {
             Ready When You Are.
           </h2>
           <p className="text-secondary-text text-lg max-w-lg mx-auto">
-            Select a time and a Fixible technician will be at your door.
-            Same-day slots available.
+            Select a time, bring your device in, and we will take it from
+            there. Same-day slots available.
           </p>
         </div>
 

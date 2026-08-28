@@ -52,8 +52,8 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-secondary-text text-sm leading-relaxed mt-3 mb-6 max-w-xs">
-              Hamilton&apos;s premier on-site mobile repair service. We come
-              to you, anywhere in Hamilton and surrounding areas.
+              Hamilton&apos;s premier device repair service. Phones, tablets,
+              consoles and PCs, fixed fast and guaranteed.
             </p>
 
             {/* Social links */}
@@ -160,7 +160,7 @@ export default function Footer() {
                     {business.address.city}, {business.address.province}
                     <br />
                     <span className="text-secondary-text/60 text-xs mt-0.5 block">
-                      Mobile service throughout Hamilton &amp; area
+                      Serving Hamilton &amp; surrounding areas
                     </span>
                   </span>
                 </div>

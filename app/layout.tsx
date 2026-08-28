@@ -20,20 +20,20 @@ export const metadata: Metadata = {
   metadataBase: new URL(business.url),
 
   title: {
-    default: `${business.name} — Mobile Phone Repair in Hamilton, Ontario | We Come to You`,
+    default: `${business.name} — Phone & Device Repair in Hamilton, Ontario`,
     template: `%s | ${business.name}`,
   },
 
   description:
-    "Fixible is Hamilton's premier mobile repair service. We come to your home, office, or anywhere in Hamilton to fix cracked screens, dead batteries, charging ports, tablets, consoles and more. Fast, affordable, guaranteed.",
+    "Fixible is Hamilton's premier device repair service. Cracked screens, dead batteries, charging ports, tablets, consoles and more, fixed fast. Book online, most repairs done the same day.",
 
   keywords: [
     'phone repair Hamilton',
-    'mobile repair Hamilton Ontario',
+    'mobile phone repair Hamilton Ontario',
     'cracked screen repair Hamilton',
     'iPhone repair Hamilton',
     'Samsung repair Hamilton',
-    'come to you phone repair Hamilton',
+    'phone repair shop Hamilton',
     'same day phone repair Hamilton',
     'battery replacement Hamilton',
     'charging port repair Hamilton',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     'PS5 repair Hamilton',
     'Xbox repair Hamilton',
     'desktop build Hamilton',
-    'on-site phone repair Ontario',
+    'device repair Hamilton Ontario',
     'Fixible',
     'fixible.ca',
   ],
@@ -70,24 +70,24 @@ export const metadata: Metadata = {
     locale: 'en_CA',
     url: business.url,
     siteName: business.name,
-    title: 'Fixible — We Come to You. We Fix Your Phone.',
+    title: 'Fixible — Same Day Device Repair in Hamilton',
     description:
-      "Hamilton's premier on-site mobile repair service. Cracked screens, batteries, consoles, and more, repaired at your door.",
+      "Hamilton's premier device repair service. Cracked screens, batteries, consoles, and more, repaired fast and guaranteed.",
     images: [
       {
         url: '/og-image.png',
         width: 2071,
         height: 1285,
-        alt: 'Fixible — Mobile Phone Repair in Hamilton',
+        alt: 'Fixible — Phone & Device Repair in Hamilton',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Fixible — Mobile Phone Repair in Hamilton | We Come to You',
+    title: 'Fixible — Phone & Device Repair in Hamilton',
     description:
-      "Hamilton's premier on-site mobile repair service. Cracked screens, batteries, consoles, and more, repaired at your door.",
+      "Hamilton's premier device repair service. Cracked screens, batteries, consoles, and more, repaired fast and guaranteed.",
     images: ['/og-image.png'],
   },
 

@@ -44,7 +44,7 @@ export default function PrivacyPage() {
           <ul>
             <li><strong>Contact information:</strong> Name, email address, and phone number — collected when you book a repair through our online booking system (Cal.com).</li>
             <li><strong>Device and repair information:</strong> Details about the device you bring in for repair (make, model, serial number if applicable) and a description of the issue or fault reported.</li>
-            <li><strong>Location information:</strong> Your address or preferred meeting location in Hamilton, Ontario, provided when booking an on-site repair.</li>
+            <li><strong>Booking details:</strong> The date and time of your appointment, along with any notes you provide about the repair when booking.</li>
             <li><strong>Payment information:</strong> We do not store payment card details. Payments are processed at time of service using trusted payment methods. Transaction records may be retained for accounting purposes.</li>
             <li><strong>Usage data:</strong> When you visit our website, we may automatically collect information such as your IP address, browser type, pages visited, and time spent on the site, through Google Tag Manager and associated analytics tools (e.g., Google Analytics).</li>
           </ul>
