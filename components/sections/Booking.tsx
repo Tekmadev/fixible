@@ -51,7 +51,7 @@ export default function Booking() {
           </h2>
           <p className="text-secondary-text text-lg max-w-lg mx-auto">
             Select a time, bring your device in, and we will take it from
-            there. Same-day slots available.
+            there. Flexible slots 7 days a week.
           </p>
         </div>
 

@@ -7,7 +7,7 @@ const steps = [
     title: 'Book Online',
     description:
       'Pick a time that works for you using our online booking. Takes less than two minutes.',
-    detail: 'Available same-day, 7 days a week.',
+    detail: 'Open 7 days a week.',
   },
   {
     step: '02',
