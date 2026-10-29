@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Fixible is Hamilton's premier device repair service. Cracked screens, dead batteries, charging ports, tablets, consoles and more, fixed fast. Book online, most repairs done the same day.",
+    "Fixible is Hamilton's premier device repair service. Cracked screens, dead batteries, charging ports, tablets, consoles and more, fixed fast. Book online and get a quick, honest quote.",
 
   keywords: [
     'phone repair Hamilton',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     'iPhone repair Hamilton',
     'Samsung repair Hamilton',
     'phone repair shop Hamilton',
-    'same day phone repair Hamilton',
+    'fast phone repair Hamilton',
     'battery replacement Hamilton',
     'charging port repair Hamilton',
     'tablet repair Hamilton',
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     locale: 'en_CA',
     url: business.url,
     siteName: business.name,
-    title: 'Fixible — Same Day Device Repair in Hamilton',
+    title: 'Fixible — Fast, Reliable Device Repair in Hamilton',
     description:
       "Hamilton's premier device repair service. Cracked screens, batteries, consoles, and more, repaired fast and guaranteed.",
     images: [

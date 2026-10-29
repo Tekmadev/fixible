@@ -200,9 +200,9 @@ export const faqs = [
       "We accept all major credit cards, Visa Debit, and Interac e-Transfer. Payment is collected after the repair is complete and you're satisfied.",
   },
   {
-    question: 'Do you offer same-day repair?',
+    question: 'How long does a repair take?',
     answer:
-      'Yes, for most common repairs like screen, battery, and charging port, we offer same-day service. Book early in the day and your device is often ready within hours.',
+      'It depends on the device and the repair. Many common repairs like screens, batteries, and charging ports can be done quickly, sometimes the same day when the part is in stock. We will always give you an honest time estimate when you drop off your device.',
   },
   {
     question: 'What is the OpenClaw AI Setup service?',

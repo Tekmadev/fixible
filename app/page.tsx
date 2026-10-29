@@ -13,7 +13,7 @@ import { business, faqs } from '@/data/business'
 export const metadata: Metadata = {
   title: 'Fixible — Phone & Device Repair in Hamilton, Ontario',
   description:
-    "Fixible is Hamilton's premier device repair service. Cracked screens, batteries, charging ports, tablets, consoles, and more, fixed fast. Same-day service, 90-day warranty.",
+    "Fixible is Hamilton's premier device repair service. Cracked screens, batteries, charging ports, tablets, consoles, and more, fixed fast. Quick turnaround, 90-day warranty.",
   alternates: {
     canonical: business.url,
   },
@@ -46,7 +46,7 @@ const servicePageSchema = {
     sameAs: 'https://en.wikipedia.org/wiki/Hamilton,_Ontario',
   },
   description:
-    'Mobile phone, tablet, and console repair in Hamilton, Ontario. Book online for same-day service with a 90-day warranty.',
+    'Mobile phone, tablet, and console repair in Hamilton, Ontario. Book online for fast, reliable repairs with a 90-day warranty.',
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Device Repair Services',

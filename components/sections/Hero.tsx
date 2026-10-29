@@ -20,7 +20,7 @@ import { business } from '@/data/business'
 
 const trustBadges = [
   { icon: Shield, label: '90-Day Warranty' },
-  { icon: Clock, label: 'Same-Day Service' },
+  { icon: Clock, label: 'Fast Turnaround' },
   { icon: Star,  label: 'OEM-Quality Parts' },
   { icon: Award, label: '11+ Years Experience' },
 ]
@@ -96,7 +96,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
         >
-          Same Day. Done Right.
+          Done Fast. Done Right.
         </motion.h1>
 
         {/* Headline line 2 — LayoutTextFlip */}
